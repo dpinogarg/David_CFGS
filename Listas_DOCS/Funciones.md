@@ -1,5 +1,7 @@
 # Funciones
 
+*Las funciones son bloques de código reutilizables que realizan una tarea específica.*
+
 ## len()
 
 - Toma como argumento una lista.
@@ -7,6 +9,21 @@
 
 ```python
 cantidad_elementos = len(mi_lista)
+```
+
+### Ejemplo: ¿Cuantos elementos?
+
+#### Script
+
+```python
+decimales_pi = [1, 4, 1, 5, 9, 2, 6, 5, 3, 5]
+print(f"Has escrito {len(decimales_pi)} decimales de pi")
+```
+
+#### Terminal
+
+```
+Has escrito 10 decimales de pi
 ```
 
 ## sorted()
@@ -18,6 +35,22 @@ cantidad_elementos = len(mi_lista)
 ```python
 lista_creciente = sorted(mi_lista, False)
 lista_decreciente = sorted(mi_lista, True)
+```
+
+### Ejemplo: Orden alfabético
+
+#### Script
+
+```python
+lista_desordenada = ["Amor", "Arco", "Avión", "Árbol", "Amigo", "Agua"]
+lista_alfabetica = sorted(lista_desordenada)
+print(f"Lista con orden alfabético: {lista_alfabetica}")
+```
+
+#### Terminal
+
+```
+Lista con orden alfabético: ["Agua", "Amigo", "Amor", "Arco", "Árbol", "Avión"]
 ```
 
 ## enumerate()
@@ -40,7 +73,7 @@ for indice, valor in enumerate(mi_lista, 1):
     print(f"Nombre {indice}: {valor}")
 ```
 
-#### Salida en terminal
+#### Terminal
 
 ```
 Nombre 1: Alejandro

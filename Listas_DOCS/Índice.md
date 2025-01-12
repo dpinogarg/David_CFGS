@@ -2,7 +2,7 @@
 
 ## Explicación
 
-Las listas son colecciones de elementos que permiten almacenar y manipular conjuntos de datos de diferentes tipos.
+*Las listas son colecciones de elementos que permiten almacenar y manipular conjuntos de datos de diferentes tipos.*
 
 ## Características
 
@@ -26,5 +26,6 @@ mi_lista = [True, 4, 8.2, "Palabra"]
 
 ## Anexos
 
-[Funciones](Funciones.md)
-[Métodos](Métodos.md)
+[![Funciones](https://img.shields.io/badge/Funciones-orange)](Funciones.md)
+
+[![Funciones](https://img.shields.io/badge/Métodos-blue)](Métodos.md)

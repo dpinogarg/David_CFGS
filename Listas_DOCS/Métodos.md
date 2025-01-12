@@ -1,5 +1,7 @@
 # Métodos
 
+*Los métodos son funciones asociadas a objetos.*
+
 ## .append()
 
 - Toma como argumento un valor(type:any).
@@ -184,6 +186,21 @@ Wally está en el índice 2
 mi_lista.reverse()
 ```
 
+### Ejemplo: Loterias recientes
+
+#### Script
+
+```python
+lista_premiados = [12, 45, 67, 23, 89, 34, 76, 58]
+print(f"Premios más recientes: {lista_premiados.reverse()}")
+```
+
+#### Terminal
+
+```
+Premios más recientes: [58, 76, 34, 89, 23, 67, 45, 12]
+```
+
 ## .sort()
 
 - Toma como argumento el reverse(type:bool, opcional, default:False).
@@ -191,4 +208,20 @@ mi_lista.reverse()
 
 ```python
 mi_lista.sort()
+```
+
+### Ejemplo: Cuenta atras
+
+#### Script
+
+```python
+lista_numeros = [7, 2, 9, 4, 1, 5, 0, 3, 8, 6]
+lista_numeros.sort(True)
+print(f"Cuenta atras: {lista_numeros}")
+```
+
+#### Terminal
+
+```
+Cuenta atras: [9, 8, 7, 6, 5, 4, 3, 2, 1, 0]
 ```
