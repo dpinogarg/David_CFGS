@@ -1,3 +1,5 @@
+[![Home](https://img.shields.io/badge/Volver_al_índice-black)](../listas.md)
+
 # Funciones
 
 *Las funciones son bloques de código reutilizables que realizan una tarea específica.*
@@ -81,3 +83,5 @@ Nombre 2: Sergio
 Nombre 3: Miguel
 Nombre 4: Javier
 ```
+
+[![Inicio](https://img.shields.io/badge/Volver_al_inicio-black)](#funciones)

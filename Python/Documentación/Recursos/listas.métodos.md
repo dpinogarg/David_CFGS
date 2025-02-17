@@ -1,3 +1,5 @@
+[![Home](https://img.shields.io/badge/Volver_al_índice-black)](../listas.md)
+
 # Métodos
 
 *Los métodos son funciones asociadas a objetos.*
@@ -225,3 +227,5 @@ print(f"Cuenta atras: {lista_numeros}")
 ```
 Cuenta atras: [9, 8, 7, 6, 5, 4, 3, 2, 1, 0]
 ```
+
+[![Inicio](https://img.shields.io/badge/Volver_al_inicio-black)](#métodos)

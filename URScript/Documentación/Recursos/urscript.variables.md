@@ -1,0 +1,1 @@
+[![Home](https://img.shields.io/badge/Volver_al_índice-black)](../urscript.md)

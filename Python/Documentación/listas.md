@@ -24,8 +24,10 @@ lista_vacia = []
 mi_lista = [True, 4, 8.2, "Palabra"]
 ```
 
-## Anexos
+## Índice
 
-[![Funciones](https://img.shields.io/badge/Funciones-orange)](Funciones.md)
+[![Funciones](https://img.shields.io/badge/Funciones-orange)](Recursos/listas.funciones.md)
 
-[![Funciones](https://img.shields.io/badge/Métodos-blue)](Métodos.md)
+[![Métodos](https://img.shields.io/badge/Métodos-blue)](Recursos/listas.métodos.md)
+
+[![Inicio](https://img.shields.io/badge/Volver_al_inicio-black)](#listas-en-python)
