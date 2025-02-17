@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Panel de control</title>
+        <link rel="icon" href="Recursos/Estrella.ico">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <h1>Control de iluminación</h1>
+        <form method="get">
+            <div>
+                <button type="submit" name="estado" value="off" id="paro">Paro</button>
+                <button type="submit" name="estado" value="on" id="marcha">Marcha</button>
+            </div>
+            <div>
+                <button type="submit" name="modo" value="1" id="auto">Automático</button>
+            </div>
+        </form>
+        <p id="output-text">Salida de datos</p>
+        <script src="script.js"></script>
+    </body>
+</html>
