@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Panel de control</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="alumbrado">
+        <div id="alumbrado_general">
+            <h2>Alumbrado general</h2>
+            <div id="alumbrado_general_pilotos" class="matriz-pilotos">
+                <div id="contenedor" class="piloto-off"></div>
+            </div>
+        </div>
+    </div>
+    <h1>Control de iluminación</h1>
+    <div id="alumbrado_general">
+        
+        <button id="paro-general" class="button-disable" onclick="conmutar_salida(alumbrado-general, 0)">Paro</button>
+        <button id="marcha-general" class="button-on" onclick="conmutar_salida(alumbrado-general, 1)">Marcha</button>
+    </div>
+
+    
+    <script src="script.js"></script>
+</body>
+</html>
