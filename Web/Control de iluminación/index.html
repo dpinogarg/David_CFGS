@@ -1,24 +1,24 @@
-<!DOCTYPE html>
-<html lang="es">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Panel de control</title>
-        <link rel="icon" href="Recursos/Estrella.ico">
-        <link rel="stylesheet" href="style.css">
+<!DOCTYPE html> <!-- Especifica la versión del lenguaje de marcado -->
+<html lang="es"> <!-- La etiqueta contiene toda la estructura web y establece el idioma de la misma en 'Español' -->
+    <head> <!-- Etiqueta que establece los parámetros de estructura de la web -->
+        <meta charset="UTF-8"> <!-- Se configura la codificación de carácteres -->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Se ajusta el tamaño de la ventana -->
+        <title>Panel de control</title> <!-- Se nombra la pestaña -->
+        <link rel="icon" href="Recursos/Estrella.ico"> <!-- Se añade un icono para la ventana -->
+        <link rel="stylesheet" href="style.css"> <!-- Se añaden los recursos para la estilización de la web -->
     </head>
-    <body>
-        <h1>Control de iluminación</h1>
-        <form method="get">
-            <div>
-                <button type="submit" name="estado" value="off" id="paro">Paro</button>
+    <body> <!-- Etiqueta que organiza los elementos de la web -->
+        <h1>Control de iluminación</h1> <!-- Encabezado de primer nivel -->
+        <form method="get"> <!-- Etiqueta que establece un entorno de entrada del usuario y el tratamiento de los datos recavados -->
+            <div> <!-- Etiqueta para organizar los objetos en grupos ordenados secundarios -->
+                <button type="submit" name="estado" value="off" id="paro">Paro</button> <!-- Elemento de entrada que al activarse agrega la asignación interna a la dirección URL -->>
                 <button type="submit" name="estado" value="on" id="marcha">Marcha</button>
             </div>
             <div>
                 <button type="submit" name="modo" value="1" id="auto">Automático</button>
             </div>
         </form>
-        <p id="output-text">Salida de datos</p>
-        <script src="script.js"></script>
+        <p id="output-text">Salida de datos</p> <!-- Párrafo de texto -->
+        <script src="script.js"></script> <!-- Se añaden los recursos para la dinamización de la web-->
     </body>
 </html>
